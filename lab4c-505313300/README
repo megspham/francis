@@ -1,0 +1,33 @@
+NAME: Megan Pham
+EMAIL: megspham@ucla.edu
+ID: 505313300
+
+
+Serial number of Beaglebone: BBGW19010725
+MAC address: 2CF7F106A2A9
+
+
+Project 4C - Internet of Things Security
+CS 111 Winter 2021 - Xu
+
+In this project, we will extend Project 4B to accpet commands to and from a network server over both
+unencrypted and encrypted channels. 
+    - Primary: Demonstrate the ability to design, build and debug an embedded application that 
+    interacts with a central control server with the aid of server-side logs.
+    - Primary: Demonstrate the ability to implement a secure channel using standard tools.
+    - Primary: Demonstrate the ability to research and exploit a complex API, and to debug an 
+    application involving encrypted communication.  
+
+Deliverables:
+    lab4c_tcp.c: 
+        contains the source code of my program to obtain host name, port #, 
+        and server status
+    lab4b_tls.c
+        contains source code of my program to run over a server
+    Makefile: Supports 3 targets
+        default: Compiles the program from source code
+        clean: Deletes all files created by the Makefile
+        dist: Produces tarball used for submission
+    README:
+        description of files
+        contains the serial number of your Beaglebone and the Wifi MAC address 
